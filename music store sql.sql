@@ -58,7 +58,7 @@ group by artist.artist_id, artist.name
 order by no_of_songs desc
 
 --Q8 Return all the track names that have a song length than average song length. 
---Return the name and milliseconds for each track. Order by the song length with the longest songs listed fir
+--Return the name and milliseconds for each track. Order by the song length with the longest songs listed first
 
 select name, milliseconds from track
 where milliseconds > (
